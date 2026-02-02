@@ -1,0 +1,41 @@
+{
+  "calib": "calib.npz",
+  "measurements": [
+    {
+      "image": "measurements/hawkins_near.jpeg",
+      "distance_m": 0.45,
+      "width_m": 0.062234219922545915,
+      "height_m": 0.06392477801112965,
+      "annotated_path": "output/hawkins_near_annotated.png",
+      "json_path": "output/hawkins_near_measurement.json"
+    },
+    {
+      "image": "measurements/hawkins_3m.jpeg",
+      "distance_m": 3.0,
+      "width_m": 0.06545182599854718,
+      "height_m": 0.0687841345726147,
+      "annotated_path": "output/hawkins_3m_annotated.png",
+      "json_path": "output/hawkins_3m_measurement.json"
+    }
+  ],
+  "ground_truth_m": {
+    "width_m": 0.07,
+    "height_m": 0.07
+  },
+  "errors": [
+    {
+      "image": "measurements/hawkins_near.jpeg",
+      "abs_err_width_m": 0.007765780077454092,
+      "abs_err_height_m": 0.006075221988870352,
+      "pct_err_width": 11.09397153922013,
+      "pct_err_height": 8.678888555529074
+    },
+    {
+      "image": "measurements/hawkins_3m.jpeg",
+      "abs_err_width_m": 0.004548174001452826,
+      "abs_err_height_m": 0.0012158654273853042,
+      "pct_err_width": 6.497391430646894,
+      "pct_err_height": 1.7369506105504344
+    }
+  ]
+}
