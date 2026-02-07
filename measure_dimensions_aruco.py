@@ -1,11 +1,8 @@
-#!/usr/bin/env python3
+
 """
 Tilt-tolerant planar measurement using an ArUco marker to recover the plane pose.
 
 Requires: opencv-contrib-python (for cv2.aruco)
-
-Usage:
-  python measure_dimensions_aruco.py --image measurements/photo.jpg --calib calib.npz --marker_length 0.05
 
 Keys:
   r = reset clicked points
