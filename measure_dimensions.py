@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Measure real-world 2D dimensions of a (roughly) fronto-parallel planar object using
 perspective projection:
@@ -12,13 +12,7 @@ Batch mode:
 - If no ground-truth is given and you provide 2 images, it computes error of image2 vs image1.
 
 You click 4 corners per image: TL, TR, BR, BL.
-The script undistorts first using calibration.
 
-Examples:
-  python measure_dimensions.py --image measurements/hawkins_near.jpeg --calib calib.npz --distance 1.2
-
-  python measure_dimensions.py --images measurements/hawkins_near.jpeg measurements/hawkins_3m.jpeg \
-      --distances 1.2 3.0 --calib calib.npz --true_width_mm 55 --true_height_mm 55
 """
 
 import argparse
