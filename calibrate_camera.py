@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
+
 """
 Camera calibration (single camera) using a chessboard.
 
-Usage example:
-  python calibrate_camera.py --images "calib_images/*.jpg" --rows 6 --cols 9 --square_size 0.024 --output calib.npz --show
+
 
 Notes:
 - rows/cols refer to INNER corners (e.g., a 9x6 inner-corner board is common).
